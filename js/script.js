@@ -30,5 +30,13 @@ generaButton.addEventListener('click', function(){
     }
 document.getElementById('nome_passeggero').innerHTML = `${inputNomeCognome}`;
 document.getElementById('offerta').innerHTML = `${offertaMessage}`;
-document.getElementById('costo_biglietto').innerHTML = `${prezzoMessage}`; 
+document.getElementById('costo_biglietto').innerHTML = `${prezzoMessage}`;
+})
+
+let annullaButton = document.getElementById('annulla_button');
+//evento bottone annulla
+annullaButton.addEventListener('click', function(){
+document.getElementById('nome_passeggero').innerHTML = '';
+document.getElementById('offerta').innerHTML = '';
+document.getElementById('costo_biglietto').innerHTML = '';
 })
