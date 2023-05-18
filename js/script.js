@@ -1,5 +1,5 @@
 //dicharo le variabili
-let inputNomeCognome
+let inputNomeCognome = '';
 let inputDistanzaViaggio;
 let inputEtaPasseggero ;
 let prezzoViaggio;

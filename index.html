@@ -10,18 +10,20 @@
 </head>
 <body>
     <h1>Biglietto Treno</h1>
-    <label for="name">Inserisci il tuo nome e cognome</label>
-    <input type="text" name="name" id="nome_cognome">
-    <label for="age">Inserisci i KM da percorrere</label>
-    <input type="number" name="km" id="distanza_viaggio">
-    <label for="age">Inserici la tua età</label>
-    <select name="eta" id="eta_passeggero">
-        <option value="1">Maggiorenne</option>
-        <option value="2">Under-18</option>
-        <option value="3">Over-65</option>
-    </select>             
-    <button id="genera_button">Genera</button>
-    <button>Annulla</button>        
+    <form>
+        <label for="name">Inserisci il tuo nome e cognome</label>
+        <input type="text" name="name" id="nome_cognome">
+        <label for="age">Inserisci i KM da percorrere</label>
+        <input type="number" name="km" id="distanza_viaggio">
+        <label for="age">Inserici la tua età</label>
+        <select name="eta" id="eta_passeggero">
+            <option value="1">Maggiorenne</option>
+            <option value="2">Under-18</option>
+            <option value="3">Over-65</option>
+        </select>             
+        <button type="button" id="genera_button">Genera</button>
+        <button type="reset">Annulla</button>
+    </form>      
     <div>NOME PASSEGGERO</div>
     <div id="nome_passeggero"></div>
     <div>Offerta</div>
