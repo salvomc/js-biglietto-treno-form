@@ -36,6 +36,9 @@ document.getElementById('costo_biglietto').innerHTML = `${prezzoMessage}`;
 let annullaButton = document.getElementById('annulla_button');
 //evento bottone annulla
 annullaButton.addEventListener('click', function(){
+document.getElementById('nome_cognome').value = '';
+document.getElementById('distanza_viaggio').value = '';
+document.getElementById('eta_passeggero').value = '';
 document.getElementById('nome_passeggero').innerHTML = '';
 document.getElementById('offerta').innerHTML = '';
 document.getElementById('costo_biglietto').innerHTML = '';
