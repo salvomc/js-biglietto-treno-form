@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Biglietto Treno</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-    
+    <h1>Biglietto Treno</h1>
+    <label for="name">Inserisci il tuo nome e cognome</label>
+    <input type="text" name="name" id="nome_cognome">
+    <label for="age">Inserisci i KM da percorrere</label>
+    <input type="number" name="km" id="distanza_viaggio">
+    <label for="age">Inserici la tua età</label>
+    <select name="eta" id="eta_passeggero">
+        <option value="1">Maggiorenne</option>
+        <option value="2">Under-18</option>
+        <option value="3">Over-65</option>
+    </select>             
+    <button id="genera_button">Genera</button>
+    <button>Annulla</button>        
+    <div>NOME PASSEGGERO</div>
+    <div id="nome_passeggero"></div>
+    <div>Offerta</div>
+    <div id="offerta"></div>
+    <div>Costo Biglietto</div>
+    <div id="costo_biglietto"></div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
